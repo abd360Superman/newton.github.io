@@ -24,20 +24,19 @@ hr {
 .screens {
     position: absolute;
     list-style: none;
-    font-family: monospace;
+    font-family: fantasy;
     top: 10px;
-    left: 800px;
     z-index: 10;
     cursor:pointer;
+    position: fixed;
+    background: white;
+    width: 100%;
 }
 .links {
     float:left;
-    color:#fff;
     padding-top: 5px;
-    padding-left:9px;
     padding-right:9px;
     padding-bottom:5px;
-    font-family:fantasy;
     font-size:20px;
     display: inline;
 }
@@ -50,4 +49,13 @@ li {
 h4 {
     font-family:fantasy;
     color:aqua;
+}
+img:hover {
+    transform: scale(0.9);
+}
+footer {
+    background-color:forestgreen;
+    margin:10px;
+    padding:10px;
+    text-align:center;
 }
